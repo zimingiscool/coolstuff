@@ -1,0 +1,29 @@
+{    "version": "Continuous Release",
+    "description": "Plugin and package manager for Lite XL editor.",
+    "homepage": "https://github.com/lite-xl/lite-xl-plugin-manager",
+    "license": "LPM",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/continuous/lpm.x86_64-windows.exe",
+            "hash": "c5110b30906e2084d3b46b80bf7f07bd486afab2b44b81ab38a9720da52c795a"
+        }
+    },
+    "bin": "lpm.exe",
+    "shortcuts": [
+        [
+            "lpm.exe",
+            "Lite-XL Plugin Manager"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/lite-xl/lite-xl-plugin-manager/tags",
+        "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/continuous/lpm.x86_64-windows.exe"
+            }
+        }
+    }
+}
