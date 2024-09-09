@@ -1,8 +1,8 @@
 {
-    "version": "continuous",
+    "version": "continuous-release",
     "description": "Plugin and package manager for Lite XL editor.",
     "homepage": "https://github.com/lite-xl/lite-xl-plugin-manager",
-    "license": "MIT",  // Update if needed, "LPM" is not a standard license name.
+    "license": "LPM",  // Update if needed, "LPM" is not a standard license name.
     "architecture": {
         "64bit": {
             "url": "https://github.com/lite-xl/lite-xl-plugin-manager/releases/download/continuous/lpm.x86_64-windows.exe",
